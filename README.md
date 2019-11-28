@@ -4,7 +4,7 @@ A simple image proxy for no insecure content warnings or disappearing images on 
 
 ## How to use
 
-Just create a https website with php runtime environment,and put the file `proxy.php` in your web directory.
+Just create a https website with PHP runtime environment,and put the file `proxy.php` in your web directory.
 
 Then you can use it by constructing a link like `https://youdomain.com/proxy.php?url=the-url-you-want-to-proxy`.
 
@@ -16,4 +16,4 @@ http://domain.com/your-image-path
 https://domian.com/your-image-path
 ```
 
-I created it for my rss subscriber, but I don't know php at all, so the code may be a bit bad, forgive me.
+**PS:** I created it for my rss subscriber, but I've never written PHP code before, so the code may be a bit bad, forgive me.
