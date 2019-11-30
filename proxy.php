@@ -2,12 +2,11 @@
 if ($_GET['url']) {    //存在url参数
     $url = $_GET['url'];
     if ($_GET['json'] == 'True') {    //返回json数据，默认直接返回图片
-		$arr = array(
-			'code' => 1,
-			'msg' => 'Request succeeded',
-			'originalURL' => $url,
-			'proxyImgURL' => get_proxy_img_url(),
-		);
+        $arr = array(
+            'code' => 1,
+            'originalURL' => $url,
+            'proxyImgURL' => get_proxy_img_url(),
+        );
         header('Content-type: application/json');
         echo stripslashes(urldecode(json_encode($arr)));
     } else {
