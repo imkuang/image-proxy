@@ -16,6 +16,6 @@ http://domain/image-path
 https://domian/image-path
 ```
 
-We also support the svg format picture, just constructing a link like `https://yourdomain/proxy.php?svg=True&url=the-url-you-want-to-proxy`.
+We also support svg format picture, just constructing a link like `https://yourdomain/proxy.php?svg=True&url=the-url-you-want-to-proxy`.
 
 **PS:** I created it for my rss subscriber, but I've never written PHP code before, so it might be a little bad, forgive me.
